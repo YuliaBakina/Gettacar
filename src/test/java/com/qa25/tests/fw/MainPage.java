@@ -10,7 +10,7 @@ public class MainPage extends HelperBase{
     }
 
     public void clickChooseCarButton() {
-        click(By.xpath("//span//a [@href='/search']"));
+        click(By.xpath("//span//a [@href='/used/']"));
     }
 
 }
